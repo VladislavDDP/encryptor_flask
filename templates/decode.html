@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Decode
+{% endblock %}
+
+
+{% block body %}
+    <form action="/decoded_message" method="POST">
+        <input type="text" name="decode_message">
+        <button class="btn btn-outline-danger">decode message</button>
+    </form>
+{% endblock %}
+
+
+    
